@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visibility Change Demo</title>
+</head>
+<body>
+    <script>
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) {
+                console.log('分頁不可見');
+            } else {
+                console.log('分頁可見');
+            }
+        });
+    </script>
+</body>
+</html>

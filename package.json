@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp-babel": "^8.0.0"
+  }
+}
